@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
+	"github.com/droveda/design-patterns/bridge"
 	"github.com/droveda/design-patterns/builder"
 	"github.com/droveda/design-patterns/command"
-	anothercommand "github.com/droveda/design-patterns/command/another-command"
 	"github.com/droveda/design-patterns/factory"
 	"github.com/droveda/design-patterns/singleton"
 )
@@ -19,7 +19,8 @@ func main() {
 	// someTests()
 
 	// commandExample()
-	anothercommand.CommandClient()
+	// anothercommand.CommandClient()
+	bridge.BridgeExample()
 }
 
 func factoryExample() {
