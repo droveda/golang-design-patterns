@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/droveda/design-patterns/bridge"
 	"github.com/droveda/design-patterns/builder"
 	"github.com/droveda/design-patterns/command"
 	"github.com/droveda/design-patterns/factory"
 	"github.com/droveda/design-patterns/singleton"
+	"github.com/droveda/design-patterns/strategy"
 )
 
 func main() {
@@ -20,7 +20,8 @@ func main() {
 
 	// commandExample()
 	// anothercommand.CommandClient()
-	bridge.BridgeExample()
+	// bridge.BridgeExample()
+	strategy.DoStrategyExample()
 }
 
 func factoryExample() {
