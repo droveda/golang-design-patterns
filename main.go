@@ -6,7 +6,8 @@ import (
 	"github.com/droveda/design-patterns/builder"
 	"github.com/droveda/design-patterns/command"
 	"github.com/droveda/design-patterns/factory"
-	"github.com/droveda/design-patterns/observer"
+	_ "github.com/droveda/design-patterns/observer"
+	"github.com/droveda/design-patterns/observer/observer2"
 	"github.com/droveda/design-patterns/singleton"
 	_ "github.com/droveda/design-patterns/strategy"
 )
@@ -23,7 +24,8 @@ func main() {
 	// anothercommand.CommandClient()
 	// bridge.BridgeExample()
 	// strategy.DoStrategyExample()
-	observer.ObserverExample()
+	// observer.ObserverExample()
+	observer2.Observer2Example()
 }
 
 func factoryExample() {
